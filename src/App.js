@@ -1,24 +1,22 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import HouseMusic from './components/HouseMusic';
+import AfroBeats from './components/AfroBeats';
+import HouseArtists from './components/HouseArtists';
+import AfroBeatsArtists from './components/AfroBeatsArtists';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <HouseMusic />
+      <HouseArtists />
+      <AfroBeats />
+      <AfroBeatsArtists />      
     </div>
   );
 }
